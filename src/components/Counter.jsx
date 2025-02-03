@@ -22,6 +22,13 @@ function Counter(){
         }
         // countVariable+=1
     }
+
+    
+
+
+    // Exercise 2:
+    // 1. create a button "Reset"
+    // 2. When you click this button the state should reset to 0
     return(
         <div>
             <h2>{count}</h2>

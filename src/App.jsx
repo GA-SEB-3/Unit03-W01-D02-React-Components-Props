@@ -1,6 +1,7 @@
 import './App.css'
 import Greeting from './components/Greeting'
 import Counter from "./components/Counter"
+import Students from './components/Students'
 function App() {
 
 
@@ -61,8 +62,9 @@ function App() {
       {allStudents.map((oneStudent)=>
           <Greeting key={oneStudent.studentName} studentName = {oneStudent.studentName} grade = {oneStudent.grade}/>
       )} */}
-      <Counter/>
 
+      {/* <Counter/> */}
+      <Students/>
 
 {/* 
 exercise 1:
